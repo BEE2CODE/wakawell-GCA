@@ -1,0 +1,143 @@
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .demo{
+        padding: 0rem .5rem;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .text-image{
+        flex-direction: column;
+        width: 50%;
+    }
+    .text{
+        width: ;
+    }
+}
+
+/* start */
+
+
+
+
+/* @media (max-width: 991) {
+    html{
+        font-size: 55%
+    }
+} */
+/* 
+@media (max-width:600px){
+
+    html{
+        font-size: 55%;
+    }
+    
+    header{
+        padding: 1rem 2rem;
+    }
+    .nav ul li{
+        left: 10%;
+        padding: 1rem;
+    }
+
+    .logo{
+        letter-spacing: 0rem;
+    }
+
+
+} */
+
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+  
+    .toggle-button {
+        display: flex;
+    }
+  
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+  
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+  
+    .navbar-links ul li {
+        text-align: center;
+    }
+    .icon-earn{
+      flex-direction: column;
+    }
+   
+  }
+  
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  /* @media only screen and (max-width: 600px) {
+      html{font-size: 55%;}
+      .header {background: red;}
+      
+    } */
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    /* @media only screen and (max-width: 600px) {
+      html {font-size: 55%;}
+      .nav ul li{left: 5%}
+    } */
+  
+  
+  
+  
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 780px) {
+      html{font-size: 100%;}
+      .nav ul li{left: 9%}
+    } 
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      html{font-size: 100%;}
+      .nav ul li{left: 30%}
+    } 
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      html{font-size: 100%;}
+      .nav ul li{left: 45%}
+  
+    }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="index.js"></script>
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="company-name">
+        <div class="company-title"><img src= "./assets/Logo.png" class="logo" width="60px" ><span class="sign-up-logo">akawell</span></div>
+        <h1 class="registartion">Sign up as Individual or Business</h1>
+    </div>
+    <div class="advert-form">
+        <img src="./assets/lemon.jpg" width="500" height="400">
+        <div class="reg-form">
+            <form>
+                <div class="accounttype">
+                    <select required>
+                        <option value="" disabled selected hidden>Account type</option>...</option>
+                        <option value="0">Business</option>
+                        <option value="1">Individual</option>
+                    </select>
+                </div>
+                <div class="accounttype">
+                    <input type="text" placeholder="Full name" id="fullName">
+                </div>
+                <div class="accounttype">
+                    <input type="text" placeholder="Email Address" id="emailAddress">
+                </div>
+                <div class="accounttype">
+                    <input type="date" placeholder="Birthday" id="Birthday">
+                </div>
+               
+                <div class="accounttype">
+                    <input type="password" placeholder="password"  id="myInput">
+                    <i class="fa fa-eye" onclick="myPassword()"aria-hidden="true"></i>
+                </div>
+                <div class="accounttype">
+                    <input type="password" placeholder="confirm Password" id="confirm">
+                    <i class="fa fa-eye" onclick="confirmPassword()"aria-hidden="true"></i>
+                </div>
+                <div class="checkBox">
+                    <input class="check" type="checkbox" name="spam" checked="" style="
+                    width: 20px;
+                    margin-top: 15px;">
+                    <label for="spam" style="color: #333; padding-top: 20px; padding-left: 10px;">By proceeding I agree to WAKAWELL <span class="policy"><a href="#" >Terms of Use</a></span> and acknowledge that I have read the <span class="policy"><a href="#">Privacy Policy</a></span>.</label>
+                    
+                </div>
+                <button class="create-account" id="createAccount" type="submit">create account</button>
+                
+            </form>
+        </div>
+    </div>
+    <script>
+       
+    </script>
+</body>
+</html>

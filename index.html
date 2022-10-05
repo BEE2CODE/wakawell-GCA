@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Home</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsiveness.css">
+    <!-- google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster+Two:ital@1&family=Montserrat+Alternates:wght@300;600&family=Neonderthaw&family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="brand-title"><span class="logo-bandname"><img src= "./assets/Logo.png" class="logo"></span>akawell</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li class="menu"><a href="index.html">Home</a></li>
+        <li class="menu"><a href="user.html">User</a></li>
+        <li class="menu"><a href="#">software</a></li>
+        <li><a href="sign-up.html" class="demo">Create account</a></li>
+        <li><a href="#"  class="login" onclick="toggleHandler()">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- FORM -->
+  <div class="form" id="form">
+    <div class="login-exit_icon" onclick="toggleHandler()" ><i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+    <input type="email" name="email" placeholder="Enter Username">
+    <input type="password" name="" placeholder="Enter Password">
+    <button class="btnn" id="try" type="submit" onclick="toggleHandler()"><a href="#">Login</a></button>
+    <div class="login_sign-up">
+      <p class="link" style="padding-top: 12px;">Don't have an account<br>
+        <a href="sign-up.html" style="padding-top: 12px;">Sign up </a> here</a>
+      </p>
+      <p class="liw">Log in with</p>
+    </div>
+    
+  </div> 
+
+  <section>
+    <div class="overlay">
+      <div class="hero-header">
+        <h1>Transform Your Movement To Money</h1>
+        <h2>For Easy Dispatching</h2>
+        <a href="sign-up.html"><button id="sign-up">Sign-up</button></a>
+      </div>
+    </div>
+    
+  </section>
+  
+  <!-- TEXT AND IMAGE CONTAINER START -->
+
+  <section>
+    <div class="body-container">
+      <div class="on_move">
+        <h1 id="title"> MAKE MONEY ON A MOVE</h1>
+        <P id="move-para">Run your rental operation in one simple
+          platform. Our cloud-based software is jam-packed with powerful
+          tools that help you dispatch your drivers, manage your assets, 
+          monitor your trucks and more– all in just minutes. Here’s what
+          you get with Dispatcher.com. 
+        </P>
+        <div class="tools">
+          <button class="btn">User</button>
+          <button class="btn">Dispatchers</button>
+          <button class="btn">Tracker</button>
+        </div>
+      </div>
+      
+      
+      <!-- <div class="txt-img-container">
+        <h1 class="text">Make money on every movement Lorem ipsum dolor sit amet consectetur adipi</h1>
+        <img src="./image/beautiful-smiling-woman.jpg" class="center-img" style="width: 500px; padding-right: 4rem;">
+      </div>
+    </div>
+  </section> -->
+
+  <div class="why">
+    <div class="why-txt">Why WakaWell <span class="?" style="color: #73AD21; font-weight:600;">?</span></div>
+    <div class="icons" >
+      <div class="icon-earn">
+        <div class="icon-txt">
+          <i class="fa-duotone fa-sack-dollar"></i>
+          <div class="icon-txt-container">
+            <h3 class="earn-money">Earn money</h3>
+            <h5 class="deliverandearn">Deliver and earn money.</h5>
+          </div>
+        </div>
+        <div class="icon-txt">
+          <i class="fa-regular fa-person-walking-luggage"></i>
+          <div class="icon-txt-container">
+            <h3 class="earn-money">Get more jobs</h3>
+            <h5 class="deliverandearn">Get more delivery jobs on Dillivry.</h5>
+          </div>
+        </div>
+        <div class="icon-txt">
+          <i class="fa-light fa-arrow-up-right-dots"></i>
+          <div class="icon-txt-container">
+            <h3 class="earn-money">Grow your business</h3>
+            <h5 class="deliverandearn">Your logistic business grows better.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEXT AND IMAGE CONTAINER END -->
+
+  <!-- FOOTER SECTION START -->
+  <footer>
+    <div class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#">home</a>
+          <a href="#">Features</a>
+          <a href="#">Software</a>
+          <a href="#">Request a Demo</a>
+          <a href="#">reivew</a>
+          <a href="#">Login</a>
+        </div>
+        <div class="box">
+          <h3>Location</h3>
+          <a href="#">Lagos</a>
+          <a href="#">Abuja</a>
+          <a href="#">Anambra</a>
+          <a href="#">Ogun</a>
+          <a href="#">Ibadan</a>
+        </div>
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#">+2348065485204</a>
+          <a href="#">+2349035468217</a>
+          <a href="#">Graffvillage@gmail.com</a>
+          <a href="#">Tife@gmail.com</a>
+          <a href="#">Lagos Island, Nigeria - 100001</a>
+        </div>
+        <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+    </div>
+      
+    <div class="copy_right" style="text-align: center;"> copyright @ 2022 by <span>Bunix</span> </div>
+  </footer>
+
+   
+
+   
+
+  <script src="index.js"></script>
+</body>
+</html>
