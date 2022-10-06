@@ -626,10 +626,7 @@ input:hover
 /* body section */
 
 
-.overlay
-{
-    padding-top: 3rem ;
-}
+
 .hero-header
 {
     
@@ -685,12 +682,8 @@ input:hover
     width: 100%;
     justify-content: space-between;
     margin-top: 25px;
-    
 }
-.text
-{
-    margin-left: 30px;
-}
+
 .on_move
 {
     text-align: center;
@@ -825,91 +818,40 @@ footer
     font-weight: 800;
 }
 
-/* USER SECTION */
+/* USER START SECTION */
 
+.overlay{
+    width: 100%;
+    left: 0;
+}
+.text-image{
 
+    margin: 5rem;
 
-.text-image
-{
-    width: 90%;
-    padding-top: 1rem;
-    padding-left: 4rem;
     display: flex;
     justify-content: space-between;
-    padding-right: 4rem;
-
+}
+.text{
+    padding-top: 3rem;
+}
+.text h4{
+    color: var(--lemon);
+    font-size: 2rem;
+}
+.text h1{
+    font-size: 4rem;
+    color: var(--lemon-dark)
+}
+.img img{
+    width: 600px;
+    height: 250px
 }
 
-.text
-{
-    width: 40%;
-    line-height: 3.5rem;
-}
-.text h4
-{
-    font-family:  sans-serif;
-    color: var(--blend);
-}
-.text h1
-{
-    font-family: sans-serif;
-    color: var(--black-blue);
-    font-size: 3rem;
-    
-}
+/* USER SECTION END */
 
-.img{
-    margin-left: 10rem;
-}
 /* FORM */
 
-.stage-container
-{
-    margin-left: 4rem;
-    margin-top: 4rem;
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    justify-content: space-between
-    
-   
-    
-}
-.container
-{
-    width: 50%;
-    line-height: 1.5rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 270px;
-}
 
-.stage
-{
-    background-color: var(--lemon-dark);
-    color: #fff;
-}
-.stage1
-{
-    background-color: var(--light-gray);
-    color: #fff;
-    
-}
-.stage2
-{
-    background-color: var(--lemon);
-    color: #fff;
-    
-}
- .to-do
-{
-    padding: 1rem;
-}
-.step
-{
-    padding: 1rem;
-}
 
 #userForm
 {
