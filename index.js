@@ -54,3 +54,13 @@ function confirmPassword() {
       password.type = "password";
   }
 }
+
+function checkBox() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("createAccount");
+  if (checkBox.checked == true){
+    text.style.backgroundColor = "#50B14A";
+  } else {
+     text.style.backgroundColor = "#B7B6B7";
+  }
+}

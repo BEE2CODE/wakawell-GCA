@@ -1,6 +1,6 @@
 @media (max-width: 800px) {
     html{
-        font-size: 65%
+        font-size: 80%
     }
     .navbar {
         flex-direction: column;
@@ -46,7 +46,22 @@
         height: 250px;
 
     }
-   
+    .inputBox{
+        margin-left: 2rem;
+    }
+    .submit{
+        margin-left: 2rem;
+    }
+
+    /* How it works */
+    .container_reg-img
+    {
+        flex-wrap: wrap;
+    }
+    #how-para
+    {
+        font-size: 1.3rem !important;
+    }
 }
 
 /* start */

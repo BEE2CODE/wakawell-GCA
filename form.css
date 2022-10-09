@@ -5,11 +5,12 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 
+
 }
 
 .company-name
 {
-    width: 100%;    
+    width: 100%;   
 }
 .company-title
 {
@@ -22,11 +23,13 @@
 {
     text-align: center;
     padding-top: 10px;
+    
 }
 .advert-form
 {
     display: flex;
-    margin-left: 5rem;
+    width: 100%;
+    justify-content: center;
 }
 .reg-form form
 {
@@ -68,10 +71,11 @@ select
 .create-account{
     margin-top: 1rem;
     padding: 7px 9.3rem;
-    font-size: 1rem;
+    font-size: .9rem;
     background-color: #B7B6B7;
     border: none;
     color: white;
+    width: 100%;
 }
 .create-account:hover
 {
@@ -81,4 +85,32 @@ select
 .policy a{
     text-decoration: none;
     color: #2fd312;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px){
+    html{
+        font-size: 100%;
+    }
+    .advert-form{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .sign-up-img{
+        width: 400px;
+        height: 200px;
+    }
+    .reg-form form{
+    
+        width: 100%;
+        padding-left: 7rem;
+    }
+    #spam{
+        width: 100%;
+    }
+
 }

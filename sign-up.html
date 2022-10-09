@@ -16,7 +16,7 @@
         <h1 class="registartion">Sign up as Individual or Business</h1>
     </div>
     <div class="advert-form">
-        <img src="./assets/lemon.jpg" width="500" height="400">
+        <img src="./assets/lemon.jpg" width="500" height="400" class="sign-up-img">
         <div class="reg-form">
             <form>
                 <div class="accounttype">
@@ -45,10 +45,10 @@
                     <i class="fa fa-eye" onclick="confirmPassword()"aria-hidden="true"></i>
                 </div>
                 <div class="checkBox">
-                    <input class="check" type="checkbox" name="spam" checked="" style="
+                    <input class="check" type="checkbox" id="myCheck" style="
                     width: 20px;
-                    margin-top: 15px;">
-                    <label for="spam" style="color: #333; padding-top: 20px; padding-left: 10px;">By proceeding I agree to WAKAWELL <span class="policy"><a href="#" >Terms of Use</a></span> and acknowledge that I have read the <span class="policy"><a href="#">Privacy Policy</a></span>.</label>
+                    margin-top: 15px;" onclick="checkBox()">
+                    <label for="spam" style="color: #333; padding-top: 20px; padding-left: 10px;" id="spam">By proceeding I agree to WAKAWELL <span class="policy"><a href="#" >Terms of Use</a></span> and acknowledge that I have read the <span class="policy"><a href="#">Privacy Policy</a></span>.</label>
                     
                 </div>
                 <button class="create-account" id="createAccount" type="submit">create account</button>
