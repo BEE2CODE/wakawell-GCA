@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wakawell</title>
+    <!-- CSS linking -->
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="responsiveness.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     
@@ -32,11 +35,12 @@
 
 
     <!-- FORM -->
-    <form onsubmit="setTimeout(function(){window.location.reload();},10);">
+    <form onsubmit="setTimeout(function(){window.location.reload();},0);">
         <div class="form" id="form"  >
             <div class="login-exit_icon" onclick="toggleHandler()" ><i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
             <input type="email" name="email" placeholder="Enter Username" required>
-            <input type="password" name="" placeholder="Enter Password" required>
+            <input type="password" name="" placeholder="Enter Password" i class="fa fa-eye" aria-hidden="true" id="myInput">
+      <i class="fa fa-eye" onclick="myPassword()"aria-hidden="true" style="color:#73AD21;cursor:pointer"></i>
             <button class="btnn" id="try" type="submit" onclick="myFunction()" ><a href="#">Login</a></button>
             <div class="login_sign-up">
               <p class="link" style="padding-top: 12px;">Don't have an account<br>
