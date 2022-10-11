@@ -46,6 +46,10 @@
         height: 250px;
 
     }
+    .container{
+        display: block;
+        justify-content: center;
+    }
     .inputBox{
         margin-left: 2rem;
     }

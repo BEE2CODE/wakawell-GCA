@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wakawell</title>
-    
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="responsiveness.css">
 </head>
@@ -31,21 +30,25 @@
     </nav>
 
 
-    <!-- <section class="txt-img_section">
-        <div class="text-image">
-            <div class="text">
-                <h4>In your comfort</h4>
-                <h1>Movement earn you</h1>
-                <h1>Extra cash</h1>
+
+    <!-- FORM -->
+    <form onsubmit="setTimeout(function(){window.location.reload();},10);">
+        <div class="form" id="form"  >
+            <div class="login-exit_icon" onclick="toggleHandler()" ><i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+            <input type="email" name="email" placeholder="Enter Username" required>
+            <input type="password" name="" placeholder="Enter Password" required>
+            <button class="btnn" id="try" type="submit" onclick="myFunction()" ><a href="#">Login</a></button>
+            <div class="login_sign-up">
+              <p class="link" style="padding-top: 12px;">Don't have an account<br>
+                <a href="sign-up.html" style="padding-top: 12px;">Sign up </a> here</a>
+              </p>
+              <p class="liw">Log in with</p>
             </div>
-            <div class="img">
-                <img src="./image/girls.png" style="width: 600px; height: 250px">
-            </div>
-        </div>
-        <span id="sign_up"><button  id="sign-up" type="submit" >Sign up</button>
-        </span>
-        <span><a href="#" class="show-more">Show more...</a></span>
-    </section> -->
+            
+          </div>
+    </form>
+   
+   
 
     <section>
         <div class="overlay">
@@ -97,9 +100,6 @@
                         <input type="email" placeholder="Email address" name="much">
                     </div>
                 </div>
-                
-    
-                <input type="submit" onclick="myFunction()" class="submit">
     
             </form>
             <div class="inputBox">
@@ -109,29 +109,33 @@
                 </div>
                 
             </div>
+
+            
         </div>
     </div>
+    <input type="submit" onclick="myFunction()" class="submit">
+    
     <div class="how-it-work">
         <div class="how-container">
             <h1 id="how_it_work-header">How WakaWell works</h1>
         </div>
         <div class="container_reg-img">
             <div class="how-it-steps">
-                <img src="./assets/gredient-img.webp" class="how-img" alt="not available" width="100px" height="60px">
+                <img src="./assets/register (1).jpg" class="how-img" alt="not available" width="100px" height="60px">
                 <div class="container-how">
                     <h1 id="how-reg">Register</h1>
                     <p id="how-para">Sign up for free on the web or download Dillivry app in App store or Google play.</p>
                 </div>
             </div>
             <div class="how-it-steps">
-                <img src="./assets/gredient-img.webp" alt="not available" width="100px" height="60px">
+                <img src="./assets/Quote.jpg" alt="not available" width="100px" height="60px">
                 <div class="container-how">
                     <h1 id="how-reg">Quote</h1>
                     <p id="how-para">Submit your reasonable quote for delivery requests. </p>
                 </div>
             </div>
             <div class="how-it-steps">
-                <img src="./assets/gredient-img.webp" alt="not available" width="100px" height="60px">
+                <img src="./assets/register (2).jpg" alt="not available" width="100px" height="60px">
                 <div class="container-how">
                     <h1 id="how-reg">Deliver</h1>
                     <p id="how-para">Pickup and deliver with care.</p>
@@ -195,5 +199,6 @@
     </div>
     <div class="copy_right" style="text-align: center;"> copyright @ 2022 by <span>Bunix</span> </div>
   </footer>
+  <script src="index.js"></script>
 </body>
 </html>
